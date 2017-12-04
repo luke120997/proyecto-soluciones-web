@@ -1,0 +1,343 @@
+Fecha: 2017-11-10 05:44:29
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web\models\AccesoBD.php
+Linea: 32
+Mensaje: 
+
+Fecha: 2017-11-10 05:48:38
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT * FROM clientes 
+				WHERE usuario = 'admin' AND password = 'admin'
+
+Fecha: 2017-11-10 18:42:41
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT * FROM producto 
+						WHERE id_sexo = {'1'} LIMIT 9
+
+Fecha: 2017-11-10 18:55:24
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web\models\AccesoBD.php
+Linea: 31
+Mensaje: 
+
+Fecha: 2017-11-10 18:55:56
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT * FROM producto 
+						WHERE id_sexo =  LIMIT 9
+
+Fecha: 2017-11-10 18:55:56
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web\models\AccesoBD.php
+Linea: 31
+Mensaje: 
+
+Fecha: 2017-11-11 21:02:00
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = '' 
+						OR sexo.sexo = ''
+						OR producto.nombre LIKE %''% LIMIT 9
+
+Fecha: 2017-11-11 21:02:22
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = '' 
+						OR sexo.sexo = ''
+						OR producto.nombre LIKE %''% LIMIT 9
+
+Fecha: 2017-11-11 21:02:22
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: 
+
+Fecha: 2017-11-11 21:03:14
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = '' 
+						OR sexo.sexo = ''
+						OR producto.nombre LIKE %% LIMIT 9
+
+Fecha: 2017-11-11 21:03:14
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = '' 
+						OR sexo.sexo = ''
+						OR producto.nombre LIKE %% LIMIT 9
+
+Fecha: 2017-11-11 21:03:43
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = '' 
+						OR sexo.sexo = ''
+						OR producto.nombre LIKE %% LIMIT 9
+
+Fecha: 2017-11-11 21:03:43
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = '' 
+						OR sexo.sexo = ''
+						OR producto.nombre LIKE %% LIMIT 9
+
+Fecha: 2017-11-11 21:04:56
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = '' 
+						OR sexo.sexo = ''
+						OR producto.nombre LIKE '%% LIMIT 9
+
+Fecha: 2017-11-11 21:04:56
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = '' 
+						OR sexo.sexo = ''
+						OR producto.nombre LIKE '%% LIMIT 9
+
+Fecha: 2017-11-11 21:12:22
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = 'polos' 
+						OR sexo.sexo = 'polos'
+						OR producto.nombre LIKE '%polos%' LIMIT 9
+						AND producto.id != producto.id
+
+Fecha: 2017-11-11 21:12:22
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = 'polos' 
+						OR sexo.sexo = 'polos'
+						OR producto.nombre LIKE '%polos%' LIMIT 9
+						AND producto.id != producto.id
+
+Fecha: 2017-11-11 21:12:23
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = 'polos' 
+						OR sexo.sexo = 'polos'
+						OR producto.nombre LIKE '%polos%' LIMIT 9
+						AND producto.id != producto.id
+
+Fecha: 2017-11-11 21:12:23
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = 'polos' 
+						OR sexo.sexo = 'polos'
+						OR producto.nombre LIKE '%polos%' LIMIT 9
+						AND producto.id != producto.id
+
+Fecha: 2017-11-11 21:12:23
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = 'polos' 
+						OR sexo.sexo = 'polos'
+						OR producto.nombre LIKE '%polos%' LIMIT 9
+						AND producto.id != producto.id
+
+Fecha: 2017-11-11 21:12:23
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = 'polos' 
+						OR sexo.sexo = 'polos'
+						OR producto.nombre LIKE '%polos%' LIMIT 9
+						AND producto.id != producto.id
+
+Fecha: 2017-11-12 01:18:16
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = 'polos' 
+						OR sexo.sexo = 'polos'
+						OR producto.nombre LIKE '%polos%' LIMIT 9
+						AND producto.id != producto.id
+
+Fecha: 2017-11-12 01:18:16
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = 'polos' 
+						OR sexo.sexo = 'polos'
+						OR producto.nombre LIKE '%polos%' LIMIT 9
+						AND producto.id != producto.id
+
+Fecha: 2017-11-12 01:18:20
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = '' 
+						OR sexo.sexo = ''
+						OR producto.nombre LIKE '%%' LIMIT 9
+						AND producto.id != producto.id
+
+Fecha: 2017-11-12 01:18:20
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = '' 
+						OR sexo.sexo = ''
+						OR producto.nombre LIKE '%%' LIMIT 9
+						AND producto.id != producto.id
+
+Fecha: 2017-11-12 01:18:47
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = '' 
+						OR sexo.sexo = ''
+						OR producto.nombre LIKE '%%' LIMIT 9
+						AND producto.id != producto.id
+
+Fecha: 2017-11-12 01:18:47
+Archivo: C:\xampp\htdocs\Proyecto-Soluciones-Web-1.1\models\AccesoBD.php
+Linea: 31
+Mensaje: SELECT producto.*
+						FROM producto, categoria, sexo
+						WHERE  categoria.nombre = '' 
+						OR sexo.sexo = ''
+						OR producto.nombre LIKE '%%' LIMIT 9
+						AND producto.id != producto.id
+
+Fecha: 2017-11-21 16:36:35
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 56
+Mensaje: INSERT INTO compra VALUES('17-11-21', '7')
+
+Fecha: 2017-11-21 16:36:35
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 56
+Mensaje: 
+
+Fecha: 2017-11-21 16:42:25
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 56
+Mensaje: INSERT INTO compra VALUES('21-11-17', '7')
+
+Fecha: 2017-11-21 16:42:25
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 56
+Mensaje: INSERT INTO compra VALUES('21-11-17', '7')
+
+Fecha: 2017-11-21 16:45:09
+Error: Error en la consulta: Column count doesn't match value count at row 1
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 56
+Mensaje: INSERT INTO compra VALUES('21-11-17', '7')
+
+Fecha: 2017-11-21 16:45:09
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 56
+Mensaje: INSERT INTO compra VALUES('21-11-17', '7')
+
+Fecha: 2017-11-21 16:11:28
+Error: Error en la consulta: Column count doesn't match value count at row 1
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 56
+Mensaje: INSERT INTO compra VALUES('21-11-2017', '7')
+
+Fecha: 2017-11-21 16:50:28
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 56
+Mensaje: INSERT INTO compra VALUES('21-11-2017', '7')
+
+Fecha: 2017-11-21 16:11:58
+Error: Error en la consulta: Column count doesn't match value count at row 1
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 56
+Mensaje: INSERT INTO compra VALUES('2017-11-21', '7')
+
+Fecha: 2017-11-21 16:56:58
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 56
+Mensaje: INSERT INTO compra VALUES('2017-11-21', '7')
+
+Fecha: 2017-11-21 18:32:56
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 32
+Mensaje: SELECT * FROM producto WHERE id_sexo = \'1\' LIMIT 9
+
+Fecha: 2017-11-21 18:32:56
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 32
+Mensaje: SELECT * FROM producto WHERE id_sexo = '1' LIMIT 9
+
+Fecha: 2017-11-21 18:33:24
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 32
+Mensaje: SELECT * FROM producto WHERE id_sexo = \'1\' LIMIT 9
+
+Fecha: 2017-11-21 18:33:24
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 32
+Mensaje: SELECT * FROM producto WHERE id_sexo = '1' LIMIT 9
+
+Fecha: 2017-11-21 18:33:27
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 32
+Mensaje: SELECT * FROM producto WHERE id_sexo = \'2\' LIMIT 9
+
+Fecha: 2017-11-21 18:33:27
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 32
+Mensaje: SELECT * FROM producto WHERE id_sexo = '2' LIMIT 9
+
+Fecha: 2017-11-21 19:00:28
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 32
+Mensaje: SELECT * FROM producto WHERE id_sexo = \'2\' LIMIT 9
+
+Fecha: 2017-11-21 19:00:28
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 32
+Mensaje: SELECT * FROM producto WHERE id_sexo = '2' LIMIT 9
+
+Fecha: 2017-11-21 19:00:28
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 32
+Mensaje: SELECT * FROM producto WHERE id_sexo = \'2\' LIMIT 9
+
+Fecha: 2017-11-21 19:00:28
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 32
+Mensaje: SELECT * FROM producto WHERE id_sexo = '2' LIMIT 9
+
+Fecha: 2017-11-21 19:02:33
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 32
+Mensaje: SELECT * FROM producto WHERE id_sexo = \'1\' LIMIT 9
+
+Fecha: 2017-11-21 19:02:33
+Archivo: C:\xampp\htdocs\proyecto-soluciones-web\models\AccesoBD.php
+Linea: 32
+Mensaje: SELECT * FROM producto WHERE id_sexo = '1' LIMIT 9
+

@@ -1,0 +1,676 @@
+#list-products-cart {
+	    list-style: none;
+    width: 100%;
+    padding: 20px;
+}
+
+#carrito{
+	    float: right;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#carrito:hover{
+	cursor: pointer;
+}
+
+#count-carrito{
+	position: absolute;
+    top: 27px;
+    right: 90px;
+}
+
+#btnCarrito{
+	background: white;
+}
+
+.delete-product{
+	background-color: transparent;
+	border: 1px solid;
+	    padding: 3px 18px;
+	    color: black;
+}
+
+.delete-product:hover{
+	background-color: black;
+	color: white;
+}
+
+.continuar-compra{
+	margin-top: 50px;
+}
+
+#buy-cart{
+	    background-color: transparent;
+    border: 1px solid;
+    padding: 3px 18px;
+    color: black;
+}
+
+#buy-cart:hover{
+	background-color: black;
+	color: white;
+}
+
+#clear-cart{
+	    background-color: transparent;
+    border: 1px solid;
+    padding: 3px 18px;
+    color: black;
+}
+
+#clear-cart:hover{
+	background-color: black;
+	color: white;
+}
+
+.continuar-compra h1{
+	    font-size: 17px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 12px;
+}
+
+hr{
+	border-color: gray;
+}
+
+.content-view-car{
+	margin-top: 100px;
+}
+
+#view-cart .message-carrito{
+	margin-top: 50px;
+	font-size: 22px;
+	margin-bottom: 92px;
+}
+
+.cart-products img{
+	float: left;
+}
+
+.details-prod-cart{
+	float: left;
+	margin-top: 35px;
+}
+
+.mg-0{
+	margin: 0;
+}
+
+.mgt-40{
+	margin-top: 40px;
+}
+
+.pd-0{
+	padding: 0;
+}
+
+#red{
+	color: red;
+}
+
+/***** REGISTRO *****/ 
+
+.content-registro figure img{
+	margin: 30px auto 0px;
+	width: 100px;
+	height: 100px;
+}
+
+.content-registro h4{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	font-size: 25px;
+}
+.content-registro form{
+	width: 25%;
+	margin: 0 auto;
+}
+
+.content-registro form .form-group input{
+	border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-width: thin;
+    border-bottom-color: black;
+    width: 340px;
+    height: 40px;
+    outline: none;
+    font-size: 16px;
+}
+
+.content-registro .btn-registrar{
+	text-align: center;
+}
+
+.content-registro .btn-registrar input{
+	border: 0px;
+	color: black;
+	width: 114px !important;
+	background-color: black;
+	color: white;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	font-family: 'Mukta vaani', sans-serif;
+}
+#tx{
+	color: red;
+}
+
+.navbar-brand>img{
+	display: block;
+    width: 100px;
+    height: 100px;
+    margin-top: -37px;
+}
+
+#nav{
+	    padding: 20px 75px 0px;
+    border: 0px;
+    margin-bottom: 0px;
+}
+
+#nav-ul li{
+	margin: 0px 25px;
+}
+
+#nav-ul li form input{
+	font-weight: bolder;
+	background-color: transparent;
+	border: 0px;
+	margin-top: 20px;
+	outline: none;
+}
+
+#box-login{
+    padding: 25px 15px;
+    height: 300px;
+}
+
+#box-login form {
+	  margin: 0px;
+    text-align: center;
+}
+
+#box-login h4{
+	margin-bottom: 25px;
+}
+
+#box-login .form-group{
+	margin-bottom: 40px;
+}
+
+#box-login form input{
+	    width: 315px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    outline: none;
+}
+
+#box-login form .bt-form{
+	    padding: 6px 24px;
+    background-color: white;
+    border: 1px solid gray;
+        float: right;
+    margin-right: 90px;
+    width: 130px;
+}
+
+#box-login form .bt-form:hover{
+	    padding: 6px 24px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+
+}
+
+.text-under-login{
+	border: 0px;
+	background-color: transparent;
+	text-decoration: underline;
+	font-size: 13px;
+}
+
+.user-name{
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+.pd-l-0{
+	padding-left: 0px !important;
+	color: black !important;
+}
+
+#myCarousel{
+	margin-top: 104px;
+}
+
+#categoria-i .col-sm-4{
+	position: relative;
+}
+
+.hover{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(44, 62, 80, 0.6);
+	display: none;
+}
+
+.hover > form{
+	text-align: center;
+}
+
+.hover input{
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 115px;
+}
+
+.btn-hover{
+	    color: white;
+    padding: 10px;
+    border: 1px solid;
+    width: 135px;
+    margin: 30px auto;
+    background-color: transparent;
+    border-radius: 0px;
+    font-size: 15px;
+}
+
+.btn-hover:hover{
+	background-color: black;
+	border: 0px;
+}
+
+.btn-hover a{
+	color: white;
+	text-decoration: none;
+}
+
+.box-button{
+
+	text-align: center;
+}
+
+#categoria-i .col-sm-4:hover .hover{
+	display: block;
+	cursor: pointer;
+}
+
+#categoria-i figure img{
+	width: 290px;
+	height: 290px;
+	margin: 0 auto;
+}
+
+#categoria-i h5{
+	text-align: center;
+  font-size: 21px;
+
+}
+
+.txt-title{
+	margin-bottom: 70px;
+	margin-top: 110px;
+}
+
+#cat-index figure{
+	text-align: center;
+}
+
+#cat-index figure img{
+	width: 665px;
+}
+
+
+.footer-distributed{
+	background-color: #ecf0f1;
+	width: 100%;
+	text-align: left;
+	padding: 55px 50px;
+	margin-top: 30px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+} 
+
+/* Footer izquierdo*/
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* logo de la compañia */
+
+.footer-distributed h3{
+	color:  #2c3e50;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #2c3e50;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #2c3e50;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #2c3e50;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Centro :) */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #2c3e50;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #2c3e50;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+	font-family: 'Mukta vaani', sans-serif;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #2c3e50;
+	text-decoration: none;
+}
+
+
+/* Footer derecho */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #2c3e50;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	cursor: pointer;
+	color: #2c3e50;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a img{
+		width: 35px;
+	height: 35px;
+}
+
+
+/*********** PRODUCTOS **************/
+
+.menu-aside{
+
+	margin-left: 49px;
+	float: left;
+}
+
+.menu-aside ul{
+	padding: 0;
+	    border: 1px solid;
+}
+
+.menu-aside ul li{
+	list-style: none;
+	padding: 15px 0px;
+	margin-left: 7px;
+    margin-right: 7px;
+        border-bottom: 1px solid;
+}
+
+.menu-aside ul li form input{
+	text-decoration: none;
+	color: black;
+	background-color: transparent;
+	border: 0px;
+	outline: none;
+}
+
+.menu-aside ul li form input:hover{
+	color: gray;
+}
+
+.li-header{
+	background-color: #34495e;
+	color: white;
+	font-weight: bold;
+		margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 7px !important;
+}
+.last-border{
+	border-bottom: 0px !important;
+}
+
+.grid{
+	float: left;
+	display: flex;
+	flex-flow: row;
+}
+
+.grid-content{
+	margin-right: 115px;
+}
+
+.img-grid{
+	position: relative;
+}
+
+.img-grid:hover .hover{
+	display: block;
+	cursor: pointer;
+}
+
+.img-grid .hover h5{
+	    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin: 130px auto;
+    border: 1px solid;
+    width: 140px;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.img-grid .hover h5 a{
+	color: white;
+	text-decoration: none;
+}
+
+.img-grid .hover h5:hover{
+	border: 1px solid black;
+	color: white;
+	background-color: black;
+}
+
+.grid span:hover{
+	color: #f39c12;
+	cursor: pointer;
+}
+
+.grid-text{
+	margin-top: 20px;
+}
+
+.grid p{
+	float: right;
+}
+
+.grid p:hover{
+	color: #f39c12;
+	cursor: pointer;
+}
+
+.prom {
+	margin-top: 27px;
+}
+
+.producto-interno{
+	margin-left: 45px;
+
+	
+}
+
+.producto-interno figure img{
+	/*    width: 460px;
+    height: 560px;*/
+    border: 1px solid;
+}
+
+.content-interno{
+	    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-flow: row;
+}
+
+.interno-desc{
+	margin-left: 25px;
+}
+
+.interno-desc input{
+	outline: none;
+}	
+
+.btn-interno button{
+	font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid black;
+    color: black;
+    width: 150px;
+    background-color: transparent;
+}
+
+.btn-interno button:hover{
+	color: white;
+	background-color: black;
+
+.producto-interno .form-group label{
+	margin-right: 15px;
+}
+
+.producto-interno .form-group input{
+	width: 75px;
+}
+
+.producto-interno .grid{
+	    margin-left: 0px;
+    margin-top: 105px;
+}
+
+.text-title{
+	text-align: center;
+	margin-top: 140px;
+margin-bottom: 60px;
+}
+
+#prod-polo{
+	display: none;
+}
+
+#prod-pan{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
